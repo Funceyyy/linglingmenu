@@ -1,3 +1,4 @@
+
 -- / Locals
 local Workspace = game:GetService("Workspace")
 local Player = game:GetService("Players").LocalPlayer
@@ -878,7 +879,7 @@ function library:Init(key)
     edge.AnchorPoint = Vector2.new(0.5, 0.5)
     edge.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
     edge.Position = UDim2.new(0.5, 0, 0.5, 0)
-    edge.Size = UDim2.new(0, 594, 0, 406)
+    edge.Size = UDim2.new(0, 594, 0, 606)
 
     drag(edge, 0.04)
     local CanChangeVisibility = true
