@@ -898,7 +898,7 @@ function library:Init(key)
     background.AnchorPoint = Vector2.new(0.5, 0.5)
     background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     background.Position = UDim2.new(0.5, 0, 0.5, 0)
-    background.Size = UDim2.new(0, 592, 0, 404)
+    background.Size = UDim2.new(0, 592, 0, 604)
     background.ClipsDescendants = true
 
     backgroundCorner.CornerRadius = UDim.new(0, 2)
@@ -1048,7 +1048,7 @@ function library:Init(key)
         page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         page.BackgroundTransparency = 1.000
         page.BorderSizePixel = 0
-        page.Size = UDim2.new(0, 412, 0, 358)
+        page.Size = UDim2.new(0, 412, 0, 558)
         page.BottomImage = "http://www.roblox.com/asset/?id=3062506202"
         page.MidImage = "http://www.roblox.com/asset/?id=3062506202"
         page.ScrollBarThickness = 1
