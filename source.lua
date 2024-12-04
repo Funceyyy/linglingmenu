@@ -1,3 +1,9 @@
+--[[
+  UI lib made by bungie#0001
+  
+  - Please do not use this without permission, I am working really hard on this UI to make it perfect and do not have a big 
+    problem with other people using it, please just make sure you message me and ask me before using.
+]]
 
 -- / Locals
 local Workspace = game:GetService("Workspace")
@@ -74,9 +80,9 @@ end
 
 local library = {
     version = "2.0.2",
-    title = title or "xsx " .. tostring(math.random(1,366)),
+    title = title or "lil chase " .. tostring(math.random(1,366)),
     fps = 0,
-    rank = "private"
+    rank = "yuh"
 }
 
 coroutine.wrap(function()
@@ -196,7 +202,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "xsx v2"
+    tetx = text or "linglinghack"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -320,7 +326,7 @@ function library:Watermark(text)
 
     local WatermarkFunctions = {}
     function WatermarkFunctions:AddWatermark(text)
-        tetx = text or "xsx v2"
+        tetx = text or "linglinghack"
 
         local edge = Instance.new("Frame")
         local edgeCorner = Instance.new("UICorner")
@@ -768,7 +774,7 @@ function library:Introduction()
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     hashLogo.ImageTransparency = 1
     
-    xsx.Name = "lil chase"
+    xsx.Name = "lilchase"
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsx.BackgroundTransparency = 1.000
@@ -879,7 +885,7 @@ function library:Init(key)
     edge.AnchorPoint = Vector2.new(0.5, 0.5)
     edge.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
     edge.Position = UDim2.new(0.5, 0, 0.5, 0)
-    edge.Size = UDim2.new(0, 594, 0, 606)
+    edge.Size = UDim2.new(0, 594, 0, 406)
 
     drag(edge, 0.04)
     local CanChangeVisibility = true
@@ -898,7 +904,7 @@ function library:Init(key)
     background.AnchorPoint = Vector2.new(0.5, 0.5)
     background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     background.Position = UDim2.new(0.5, 0, 0.5, 0)
-    background.Size = UDim2.new(0, 592, 0, 604)
+    background.Size = UDim2.new(0, 592, 0, 404)
     background.ClipsDescendants = true
 
     backgroundCorner.CornerRadius = UDim.new(0, 2)
@@ -1048,7 +1054,7 @@ function library:Init(key)
         page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         page.BackgroundTransparency = 1.000
         page.BorderSizePixel = 0
-        page.Size = UDim2.new(0, 412, 0, 558)
+        page.Size = UDim2.new(0, 412, 0, 358)
         page.BottomImage = "http://www.roblox.com/asset/?id=3062506202"
         page.MidImage = "http://www.roblox.com/asset/?id=3062506202"
         page.ScrollBarThickness = 1
